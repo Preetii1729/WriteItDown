@@ -7,6 +7,9 @@ function Note(props){
             <p>
                {props.detail}
             </p>
+            <div className="cornerButton">
+                <button>Delete</button>
+            </div>
         </div>
     );
 }

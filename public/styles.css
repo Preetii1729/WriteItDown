@@ -54,3 +54,37 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+.noteInput {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  padding: 16px;
+  
+}
+
+.noteInput input {
+  border: none;
+  font-size: 1.1em;
+}
+
+.noteInput textarea {
+  border: none;
+  font-size: 1.1em;
+  padding: 1px;
+}
+.cornerButton {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+.cornerButton button{
+  background-color: #f5ba13;
+  color: #eee;
+  padding: 5px;
+  border: none;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
